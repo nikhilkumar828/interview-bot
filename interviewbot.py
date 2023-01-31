@@ -6,8 +6,10 @@ import openai
 from constants import SESSION_PROMPT
 
 load_dotenv()
-openai.api_key = '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'
-completion = openai.Completion()
+openai.api_key = os.environ["OPENAI_API_KEY"]
+
+# 'Qt1LbY9kLs66qMu4rM3hT3BlbkFJLHViQIfBBupWbRfgbXz1'
+import os
 
 start_sequence = "\nA:"
 restart_sequence = "\n\nQ:"
