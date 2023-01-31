@@ -1,1 +1,7 @@
-source interview-bot/bin/activate
+Creating venv: python3 -m venv interview-bot
+
+Activating venv: source interview-bot/bin/activate
+
+Installing dependency: pip install openai twilio flask python-dotenv 
+
+Set the environment variable "OPENAI_API_KEY" to the Open AI API api_key
