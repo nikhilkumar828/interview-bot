@@ -1,0 +1,1 @@
+source interview-bot/bin/activate
